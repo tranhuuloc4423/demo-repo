@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "..\\html\\F8_shop"
+		},
+		{
+			"path": "..\\html"
+		}
+	],
+	"settings": {
+		"git.ignoreLimitWarning": true
+	}
+}
