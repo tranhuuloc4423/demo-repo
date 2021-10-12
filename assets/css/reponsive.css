@@ -1,5 +1,5 @@
 /* PC */
-@media (min-width:1024px) {
+@media (min-width:64em) {
 
 
 
@@ -7,7 +7,11 @@
 
 }
 /* TABLET AND MOBILE */
-@media (max-width:1023px) {
+@media (max-width:63.9375em) {
+    .content-section {
+        padding: 64px 16px 64px;
+    }
+    
     .btn {
         padding: 15px 16px;
     }
@@ -38,14 +42,14 @@
 }
 
 /* TABLET */
-@media (min-width: 740px) and (max-width: 1023px) {
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
     .content-section {
         margin: 0 24px 0;
     }
 }
 
 /* MOBILE */
-@media (max-width:740px) {
+@media (max-width:46.1875em) {
     
     .s-col-full {
         width: 100%;
@@ -65,8 +69,6 @@
     #header {
         overflow: hidden;
     }
-    
-    
     #nav > li {
         display: block;
     }
@@ -115,8 +117,7 @@
     .inf-form {
         margin-top: 32px;
     }
-
-    .contact-body {
-        text-align: center;
+    .btn {
+        margin-right: -4px;
     }
 }
