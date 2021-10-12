@@ -219,6 +219,7 @@ html  {
     transform: translateX(-50%);
     text-align: center;
     padding: 32px 16px;
+    text-shadow: 2px 2px 4px #000;
 }
 
 #slider .text-head {
