@@ -26,6 +26,7 @@
 
     #contact-inf .inf-contact {
         line-height: 2;
+        padding-left: 12px;
     }
 
     #footer .social a {
@@ -98,11 +99,6 @@
         color: #fff;
         padding: 5px 22px;
     }
-
-    #slider .text-slider {
-        display: none;
-    }
-
     #content .mem-img {
         width: 60%;    
     }
